@@ -1,3 +1,5 @@
+# Tutorial 1 :: Basic image read, display and write using opencv
+
 import cv2
 import matplotlib.pyplot as plt 
 
