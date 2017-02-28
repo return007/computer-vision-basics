@@ -22,10 +22,10 @@ while True :
 	if ret == False :
 		break
 
-	inv_frame = cv2.flip(frame, 0)
+	inv_frame = cv2.flip(frame, 1)
 	out.write(inv_frame)
 	cv2.imshow('invert video capture',inv_frame)
-	if cv2.waitKey(1) & 0xFF == ord('q') :
+	if cv2.waitKey(20) & 0xFF == ord('q') :
 		break
 
 cap.release()
